@@ -46,7 +46,6 @@ p{
 .segunda {
     margin-top: 70px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
     background-color: rgb(63, 8, 6);
@@ -57,11 +56,11 @@ p{
 
 .segunda > p{
     margin-top: 1rem;
-    width: 50rem;
+    width: 20em;
 }
 
 .segunda > img {
-   width: 10rem;
+   width: 20rem;
    
 }
 
