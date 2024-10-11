@@ -1,0 +1,78 @@
+*{
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p{
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(9, 9, 19);
+}
+
+header {
+    background-color: rgb(12, 12, 29);
+    display: flex;
+    justify-content:center ;
+    height: 8rem;
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 3rem;
+}
+
+img{
+    width: 30rem;
+}
+
+p{
+    width: 30rem;
+    
+}
+
+.primeira {
+    margin-top: 3rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(9, 9, 19);
+}
+
+.segunda {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(63, 8, 6);
+    align-items: center;
+    height: 30rem;
+    
+}
+
+.segunda > p{
+    margin-top: 1rem;
+    width: 50rem;
+}
+
+.segunda > img {
+   width: 10rem;
+   
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column; /* Coloca as imagens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.terceira img {
+    width: 10rem; /* Tamanho das imagens */
+    height: 6rem; /* Altura das imagens */
+    margin: 0.5rem 0; /* Espaço entre imagens */
+}
